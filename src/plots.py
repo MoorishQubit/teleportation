@@ -13,7 +13,6 @@ plt.rcParams['font.weight'] = 'normal'
 plt.rcParams['mathtext.fontset'] = 'stix'
 plt.tick_params(axis='both', which='major', labelsize=20)
 
-<<<<<<< HEAD
 b=[]
 if __name__ == '__main__':
     pool = multiprocessing.Pool(32)
@@ -32,25 +31,6 @@ if __name__ == '__main__':
     plt.tick_params(axis='both', which='major', labelsize=18)
     plt.tight_layout()
     plt.savefig('/home/zmzaouali/teleportation/figures/fig3b.pdf')
-=======
-# b=[]
-# if __name__ == '__main__':
-#     pool = multiprocessing.Pool(20)
-#     J=1.0
-#     w=np.linspace(0,0.99,100)
-#     L=10
-#     for x in [0,5,10,30]:
-#         func = partial(LBC,L,J,0.0,x)
-#         b=pool.map(func,w)
-#         np.savez("/home/zakaria/QT_Fermi-Hubbard/data/fig2b_U=%s"%x,b)
-#         plt.plot(w,b,label=r'$L=%s$'%x)
-#     plt.ylabel(r'$\mathcal{C}_{\rho}(1,10)$',fontsize=20)
-#     plt.xlabel(r'$\delta$',fontsize=20)
-#     plt.legend(fontsize=20)
-#     plt.tick_params(axis='both', which='major', labelsize=18)
-#     plt.tight_layout()
-#     plt.savefig('figures/fig2b.pdf')
->>>>>>> 66a0c84f929c74ef9f8d6183314fe3ccf2babf65
 
 data1=np.load("/home/zakaria/QT_Fermi-Hubbard/data/fig1/fig1b_L=4.npz")['arr_0']
 data2=np.load("/home/zakaria/QT_Fermi-Hubbard/data/fig1/fig1b_L=6.npz")['arr_0']
