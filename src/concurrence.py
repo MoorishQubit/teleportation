@@ -1,6 +1,6 @@
 from hamiltonian import *
 
-def LBC(L:int, J:float, mu:float, w:float, U:float):
+def LBC(L:int, J:float, mu:float, U:float, w:float):
     basis=fermi_hubbard(L,J,U,mu,w).basis
     E_GS,V_GS=fermi_hubbard(L,J,U,mu,w).eigsh(k=1,which='SA',maxiter=1E10)
     subsyst2 = basis.partial_trace(V_GS,sub_sys_A=([0,L-1],[0,L-1]),return_rdm="A",enforce_pure=False,sparse=False,subsys_ordering=True)
