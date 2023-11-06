@@ -27,6 +27,7 @@ quantum teleporation, quantum entanglement, Fermi-Hubbard model
   <li> 'data/': Includes all source code used for simulations and analysis.</li>
   <li> 'figures/': Compiled results and graphs presented in the paper.</li>
 </ol>
+
 # Acknoweledgments
 
 S.A. acknowledges gratefully the National Center for Scientific and Technical Research (CNRST) for financial
