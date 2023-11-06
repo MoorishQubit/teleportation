@@ -10,7 +10,7 @@ This repository is dedicated to the research on [Long distance entanglement and 
 
 quantum teleporation, quantum entanglement, Fermi-Hubbard model
 
-# Acknoweldgments
+# Acknoweledgments
 
 S.A. acknowledges gratefully the National Center for Scientific and Technical Research (CNRST) for financial
 support (Grant No. 1UM5R2018). Z.M. acknowledges support from the National Science Center (NCN), Poland,
