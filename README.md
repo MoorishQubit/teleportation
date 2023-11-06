@@ -6,7 +6,7 @@ Sanaa Abaach, Zakaria Mzaouali, and Morad El Baz
 
 This repository is dedicated to the research on [Long distance entanglement and high-dimensional quantum teleportation in the Fermi–Hubbard model](https://www.nature.com/articles/s41598-023-28180-4). The primary focus is on the peculiarities of the Fermi-Hubbard model's ground state and its capability to sustain maximum long-distance entanglement, thus functioning as a quantum resource for high fidelity quantum teleportation over long distances.
 
-# Key results
+# Main results
 <ol>
 <li>Ground State Entanglement: Analysis of the ground state of the Fermi-Hubbard model for optimal long-distance entanglement.</li>
 
@@ -15,8 +15,8 @@ This repository is dedicated to the research on [Long distance entanglement and 
 <li>Teleportation Fidelity: Investigation of how the selection of measurement bases influences the fidelity of quantum teleportation.</li>
 
 <li>Hubbard Projective Measurements: Argumentation for the selection of an adequate measurement basis that aligns with the characteristics of the quantum channel to achieve perfect information transfer.</li>
-
 </ol>
+
 # Keywords
 
 quantum teleporation, quantum entanglement, Fermi-Hubbard model
