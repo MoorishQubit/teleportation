@@ -5,8 +5,7 @@ def u(n,m):
     op=sum(np.exp(2*np.pi*1j*k*n/d)*(fock(d,k)*fock(d,(k+m)%d).dag()) for k in range(d))
     return op
 
-def teleportation(args):
-    L,J,mu,w,U=args
+def teleportation(L,J,mu,w,U):
     d=4
     psi=sum(tensor(fock(d,r),fock(d,r)) for r in range(0,d))/np.sqrt(d) # maximaly entangled state \psi^+
     r_in=ket2dm(sum(fock(d,r) for r in range(d)).unit()) # the state to teleporte (density matrix of 1 ququart)
