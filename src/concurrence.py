@@ -1,5 +1,7 @@
 from hamiltonian import *
 
+                            #this file describes the lower bound concurrence used in the paper, Eq. 12-13.
+
 def LBC(L:int, J:float, mu:float, U:float, w:float):
     basis=fermi_hubbard(L,J,U,mu,w).basis
     E_GS,V_GS=fermi_hubbard(L,J,U,mu,w).eigsh(k=1,which='SA',maxiter=1E10)
