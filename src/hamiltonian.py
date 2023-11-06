@@ -28,15 +28,16 @@ def fermi_hubbard(L:int, J:float, U:float, mu:float, w:float):
     
     no_checks = dict(check_pcon=False,check_symm=False,check_herm=False)
     H=hamiltonian(static,dynamic,basis=basis,**no_checks) #dtype=np.float64,
-    E,V=H.eigsh(k=1,which='SA',maxiter=1E10)
-    rdm1=Qobj(np.abs(basis.partial_trace(V,sub_sys_A=([0,L-1],[0,L-1]),return_rdm="A",enforce_pure=False,sparse=False,subsys_ordering=True)))
-    rdm2= rdm1[[15,13,7,5,14,12,6,4,11,9,3,1,10,8,2,0]]
-    rdm3= Qobj(rdm2[:,[15,13,7,5,14,12,6,4,11,9,3,1,10,8,2,0]])    
-    rdm3.dims=[[4,4],[4,4]]
+    return H
+    # E,V=H.eigsh(k=1,which='SA',maxiter=1E10)
+    # rdm1=Qobj(np.abs(basis.partial_trace(V,sub_sys_A=([0,L-1],[0,L-1]),return_rdm="A",enforce_pure=False,sparse=False,subsys_ordering=True)))
+    # rdm2= rdm1[[15,13,7,5,14,12,6,4,11,9,3,1,10,8,2,0]]
+    # rdm3= Qobj(rdm2[:,[15,13,7,5,14,12,6,4,11,9,3,1,10,8,2,0]])    
+    # rdm3.dims=[[4,4],[4,4]]
     #return entropy_vn(rdm1,2) #-np.matrix.trace(rdm*la.logm(rdm)/la.logm(np.matrix([[2]])))
     #return basis.partial_trace(V,sub_sys_A=([0,1],[0,1]),return_rdm="A")
     #return basis.ent_entropy(V,sub_sys_A=([0],[0]),return_rdm="A")['Sent_A']
-    return rdm3
+    #return rdm3
     
     
     # rdm3.dims=[[4,4],[4,4]]
