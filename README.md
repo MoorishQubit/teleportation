@@ -20,13 +20,14 @@ MARWAN (www.marwan.ma/hpc) provided by CNRST, Rabat, Morocco.
 
 # Citation
 If you find this research useful, please cite it under:
-@article{abaach2023,
-  title={Long distance entanglement and high-dimensional quantum teleportation in the Fermi--Hubbard model},
-  author={Abaach, Sanaa and Mzaouali, Zakaria and El Baz, Morad},
-  journal={Scientific Reports},
-  volume={13},
-  number={1},
-  pages={964},
-  year={2023},
-  publisher={Nature Publishing Group UK London}
+
+@article{abaach2023,<br />
+  title={Long distance entanglement and high-dimensional quantum teleportation in the Fermi--Hubbard model},<br />
+  author={Abaach, Sanaa and Mzaouali, Zakaria and El Baz, Morad},<br />
+  journal={Scientific Reports},<br />
+  volume={13},<br />
+  number={1},<br />
+  pages={964},<br />
+  year={2023},<br />
+  publisher={Nature Publishing Group UK London}<br />
 }
