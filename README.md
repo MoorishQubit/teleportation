@@ -24,7 +24,7 @@ quantum teleporation, quantum entanglement, Fermi-Hubbard model
 # Repository Structure
 <ol>
   <li> 'src/': Includes all source code used for simulations and analysis.</li>
-  <li> 'data/': Includes all source code used for simulations and analysis.</li>
+  <li> 'data/': Includes all the data generated via source code.</li>
   <li> 'figures/': Compiled results and graphs presented in the paper.</li>
 </ol>
 
